@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "432760142021",
+    "project_id": "xillion-77f4a",
+    "storage_bucket": "xillion-77f4a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:432760142021:android:3ad76490973e495e5c58ac",
+        "android_client_info": {
+          "package_name": "com.xillion"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7xpJ0X2F1vzj9nA2SLLyyY1R9_kd__zw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

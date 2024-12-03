@@ -1,0 +1,49 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/dmsans_bold.ttf",
+      "sha1": "e2465f11006633e4e4ac7652b543adfa6f0c26cd"
+    },
+    {
+      "path": "assets/fonts/dmsans_light.ttf",
+      "sha1": "cb88a02cd4f884780e8935485739a16ad46f10ad"
+    },
+    {
+      "path": "assets/fonts/dmsans_medium.ttf",
+      "sha1": "65cb79753017741ff95b1ecd1689d56e96e2edbd"
+    },
+    {
+      "path": "assets/fonts/dmsans_regular.ttf",
+      "sha1": "8599ebf95f6cd0694dfc3af43522b535fcbfba6d"
+    },
+    {
+      "path": "assets/fonts/Inter_28pt-Bold.ttf",
+      "sha1": "f3a55daa485aea77a3225cdb628e025291b28f0b"
+    },
+    {
+      "path": "assets/fonts/Inter_28pt-Regular.ttf",
+      "sha1": "6177ac91c6fb7df9b09beda7802ea15699a88703"
+    },
+    {
+      "path": "assets/fonts/Inter_28pt-SemiBold.ttf",
+      "sha1": "49c4ab71faa7118520a21452906e04f1340c864c"
+    },
+    {
+      "path": "assets/fonts/OpenSans-Bold.ttf",
+      "sha1": "953814da1b753763dfa5a7ecc18bdbb14890e16b"
+    },
+    {
+      "path": "assets/fonts/OpenSans-Regular.ttf",
+      "sha1": "76ea5d4c70539ad9b0e7faf7e4fbe3bae8a961c7"
+    },
+    {
+      "path": "assets/fonts/OpenSans-SemiBold.ttf",
+      "sha1": "9b1adfbc773bb8bd1e6c4ca85c34441a43c2bc54"
+    },
+    {
+      "path": "assets/fonts/Syne-Regular.ttf",
+      "sha1": "ee7d729930a2e813f62df6205d5f0558fef66961"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:android)
+
+platform :android do
+  desc "Distribute Android APK to Firebase"
+  lane :distribute_to_firebase do
+    gradle(
+      task: "assembleDebug" # Use "assembleRelease" for production APKs
+    )
+    firebase_app_distribution(
+      app: "1:432760142021:android:3ad76490973e495e5c58ac",  # Replace with your Firebase App ID for Android
+      firebase_cli_token: ENV["FIREBASE_TOKEN"],
+      apk_path: "app/build/outputs/apk/debug/app-debug.apk",  # Path to your APK
+      testers: "devanshipatel.tatvasoft@gmail.com, primalcoder007@gmail.com, internal@xillion.in",  # Comma-separated emails of testers
+      release_notes: "New Android build available for testing!"
+    )
+  end
+end
